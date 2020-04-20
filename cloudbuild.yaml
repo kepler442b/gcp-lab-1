@@ -15,6 +15,6 @@ steps:
     - gcr.io/$PROJECT_ID/httpd:$SHORT_SHA
     - --region
     - us-central1-a
-    - --platform'
+    - --platform
     - managed
     - --allow-unauthenticated
